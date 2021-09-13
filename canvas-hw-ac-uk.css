@@ -1,0 +1,163 @@
+/*
+    TITLE:        CSS OVERRIDES FOR INSTRUCTURE CANVAS
+    AUTHOR:       BEN AGNEW
+    VERSION:      1.0
+    INTENDED URL: https://canvas.hw.ac.uk
+*/
+
+/* top left logo */
+.ic-app-header__logomark {
+  width: 90%;
+  margin: 20px 10% 0 10%;
+}
+
+/* dark mode label */
+.ic-app-header__logomark::before {
+  content: "UNOFFICIAL DARK MODE";
+  font-size: 7pt;
+  font-weight: bold;
+  display: block;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #999
+}
+
+/* dark backgrounds */
+#global_nav_dashboard_link,
+.ic-Layout-watermark,
+.ic-app-footer,
+footer,
+#main,
+#wrapper,
+header,
+span,
+body,
+div,
+#breadcrumbs,
+button,
+.Button,
+ic-app-header__menu-list-item--active a,
+ul,
+label,
+input,
+.ui-tabs-anchor,
+.ui-tabs-active,
+#add_discussion,
+.discussion-reply-box {
+  background-color: #222 !important;
+}
+
+/* gray backgrounds */
+.btn,
+textarea,
+textarea:focus,
+.chpSa_cPAP {
+  background: #333 !important;
+  color: #A2BCE0 !important;
+}
+
+/* white text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div,
+span,
+body,
+input,
+label,
+textarea,
+textarea:focus,
+.chpSa_cPAP,
+.discussion-reply-box {
+  color: white !important;
+}
+
+/* off white text */
+.page-title {
+  color: #eee !important;
+}
+
+/* link color */
+a,
+a span {
+  color: #79a4e0 !important;
+  background: #222
+}
+
+span.name {
+  color: #7e9dc9 !important;
+  text-shadow: none !important;
+}
+
+.active {
+  color: #5785C7 !important;
+  font-weight: bold;
+}
+
+.Grouping-styles__hero,
+.Grouping-styles__hero span {
+  background: #2f3947 !important;
+}
+
+.Grouping-styles__hero {
+  border: 1px #c0c6ca solid;
+}
+
+.Grouping-styles__title::after {
+  content: none;
+}
+
+.ic-notification {
+  border: 2px solid #4f6d96;
+  padding-bottom: 10px
+}
+
+#courseMenuToggle {
+  color: #eee;
+}
+
+/* alternating table row color */
+.ic-Table,
+.ic-Table div {
+  background-color: transparent !important;
+}
+
+.ic-Table.ic-Table--striped tbody tr:nth-child(odd) {
+  background-color: #333 !important;
+}
+
+.ic-app-header__menu-list-item.ic-app-header__menu-list-item--active .ic-icon-svg {
+  fill: #6a9ce2;
+}
+
+.ic-flash-success {
+  background: #222
+}
+
+.tox-tbtn__icon-wrap svg {
+  fill: white;
+}
+
+/* discussion board / forum styles */
+.discussion-entries .entry,
+.discussion-entries article {
+  background-color: #333
+}
+
+.discussion-read-state-btn {
+  background-color: #333;
+  border-radius: 5px
+}
+
+.discussion-entries .entry .entry {
+  border-top: solid 1px #666
+}
+
+.al-trigger a {
+  background-color: white !important;
+}
